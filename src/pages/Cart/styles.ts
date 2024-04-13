@@ -192,7 +192,6 @@ export const Details = styled.div`
   width: 100%;
   gap: 10px;
   position: relative;
-  /* background-color: red; */
 `;
 
 export const DetailsHeader = styled.div`
@@ -228,7 +227,6 @@ export const PriceNTrashCan = styled.div`
   display: flex;
   gap: 10px;
   min-width: 100px;
-  /* background-color: red; */
   justify-content: flex-end;
   align-items: center;
 `;

@@ -2,7 +2,6 @@ import React from "react";
 import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
 import Header from "./components/Header";
-// import { CartProvider } from "./hooks/useCart";
 import { store } from "./services/redux/store";
 import MainRoutes from "./routes/MainRoutes";
 import GlobalStyles from './styles/global';

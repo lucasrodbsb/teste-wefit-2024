@@ -25,16 +25,8 @@ const Cart = () => {
   const cart = useSelector((store: RootState) => store.cart.productsInCart);
   const navigate = useNavigate()
 
-  console.log(
-    cart.map((item, index) => item),
-    "carrinho"
-  );
-
   const {
-    data: moviesData,
-    isSuccess,
-    isLoading,
-    error,
+    data: moviesData
   } = useGetAllMoviesQuery();
 
   const [moviesDataFiltered, setMoviesDataFiltered] = React.useState<Movie[]>(

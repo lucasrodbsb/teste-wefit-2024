@@ -2,7 +2,6 @@ import React from "react";
 import { MdAddShoppingCart } from "react-icons/md";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
-import { isTemplateExpression } from "typescript";
 import { addProduct } from "../../services/redux/slices/cart";
 import { RootState } from "../../services/redux/store";
 import { LIGHT_BLUE, LIGHT_GREEN } from "../../styles/colors";
@@ -61,7 +60,6 @@ const MovieCard = ({
           price: price,
           title: title
         });
-        console.log(cart)
       }}
       >
         <C.BtnIcon>
